@@ -1,0 +1,72 @@
+:root {
+    --primary: #2ED25C;
+    --secondary: #7381FF;
+  }
+
+  .color-primary{
+    color: var(--secondary)!important;
+  }
+  
+/*
+Navbar
+*/
+
+.logo{
+    width: 180px;
+}
+
+.nav-link{
+    font-size: 18px!important;
+    font-weight: 500!important;
+}
+.search-bar{
+    width: 50%;
+}
+.search-bar{
+    height: 40px;
+    border: 2px solid #ccc;
+    padding-left: 15px;
+    font-size: 18px;
+    
+}
+.search-ico{
+    position: absolute;
+    margin-top: 12px;
+    margin-left:-30px;
+}
+
+/*
+Hero blog section
+*/
+.f-img{
+    width: 30%;
+    background-image:url('img-1.jfif');
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+}
+.f2-img{
+    width: 30%;
+    background-image:url('img/img-2.webp');
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+}
+.f3-img{
+    width: 30%;
+    background-image:url('img/img-3.webp');
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+}
+.h-content{
+    width: 70%;
+}
+.auth-img{
+    width: 40px;
+    height: 40px;
+    background-image:url('img/author-1.jfif');
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+}

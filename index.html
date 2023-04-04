@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" >
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src='img/plants-care-logo.svg' class="logo"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-3">
+                <a class="nav-link color-primary" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                
+            </ul>
+            
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid border-bottom">
+        <div class="row text-center">
+            <div class="m-auto search-dv mt-3 mb-3">
+                <input type="text" class="search-bar rounded-pill" placeholder="Search..."/>
+                <svg xmlns="http://www.w3.org/2000/svg" class="search-ico" width="16" height="16" color="#555" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="mt-4">
+                <p class="text-center fs-2 fw-bold">Trending</p>
+            </div>
+            <!-- <div class="mt-4">
+                <div class="my-card d-flex rounded-2 ">
+                    <div class="f-img rounded-2">
+
+                    </div>
+                    <div class="h-content ps-4 pt-4">
+                        <p class="fs-6"><span class="fw-bold">Indoor Plants</span> - 29 March 2023</p>
+                        <p class="fs-3 fw-bold"><a href="#" class="text-decoration-none text-black">Creative Succulent Container Ideas</a></p>
+                        <p class="fw-5">Succulent plants make great, easy container garden plants. They are low-maintenance, beautiful and they come in stunning colors, many different sizes, textures, and shapes. Here are some ideas for unique succulent containers.</p>
+                        <div class="d-flex">
+                            <div class="auth-img"></div>
+                            
+                            <p class="mt-2 fw-medium fs-6 ms-3">Dr. Sarukh Khan</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <!--slider-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="my-card d-flex rounded-2 ">
+                        <div class="f-img rounded-2">
+    
+                        </div>
+                        <div class="h-content ps-4 pt-4">
+                            <p class="fs-6"><span class="fw-bold">Indoor Plants</span> - 29 March 2023</p>
+                            <p class="fs-3 fw-bold"><a href="#" class="text-decoration-none text-black color-primary">Creative Succulent Container Ideas</a></p>
+                            <p class="fw-5">Succulent plants make great, easy container garden plants. They are low-maintenance, beautiful and they come in stunning colors, many different sizes, textures, and shapes. Here are some ideas for unique succulent containers.</p>
+                            <div class="d-flex">
+                                <div class="auth-img"></div>
+                                
+                                <p class="mt-2 fw-medium fs-6 ms-3">Dr. Sarukh Khan</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="my-card d-flex rounded-2 ">
+                        <div class="f2-img rounded-2">
+    
+                        </div>
+                        <div class="h-content ps-4 pt-4">
+                            <p class="fs-6"><span class="fw-bold">Indoor Plants</span> - 29 March 2023</p>
+                            <p class="fs-3 fw-bold"><a href="#" class="text-decoration-none text-black color-primary">Low-Maintenance Indoor Cacti and Succulents</a></p>
+                            <p class="fw-5">Succulent plants make great, easy container garden plants. They are low-maintenance, beautiful and they come in stunning colors, many different sizes, textures, and shapes. Here are some ideas for unique succulent containers.</p>
+                            <div class="d-flex">
+                                <div class="auth-img"></div>
+                                
+                                <p class="mt-2 fw-medium fs-6 ms-3">Dr. Sarukh Khan</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="my-card d-flex rounded-2 ">
+                        <div class="f3-img rounded-2">
+    
+                        </div>
+                        <div class="h-content ps-4 pt-4">
+                            <p class="fs-6"><span class="fw-bold">Indoor Plants</span> - 29 March 2023</p>
+                            <p class="fs-3 fw-bold"><a href="#" class="text-decoration-none text-black color-primary">10 Amazing Money Plant Benefits</a></p>
+                            <p class="fw-5">Succulent plants make great, easy container garden plants. They are low-maintenance, beautiful and they come in stunning colors, many different sizes, textures, and shapes. Here are some ideas for unique succulent containers.</p>
+                            <div class="d-flex">
+                                <div class="auth-img"></div>
+                                
+                                <p class="mt-2 fw-medium fs-6 ms-3">Dr. Sarukh Khan</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-5">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+              </div>
+            <!--slider-->
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 bg-primary pt-5"></div>
+            <div class="col-lg-3 bg-primary pt-5"></div>
+            <div class="col-lg-3 bg-primary pt-5"></div>
+            <div class="col-lg-3 bg-primary pt-5"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
