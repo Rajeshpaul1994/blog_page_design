@@ -70,3 +70,11 @@ Hero blog section
     background-position: center center;
     background-size: cover;
 }
+
+/*
+Card grid sec
+*/
+.card-thumbnail{
+    height: 150px;
+    width: full;
+}
