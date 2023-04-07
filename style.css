@@ -40,21 +40,21 @@ Hero blog section
 */
 .f-img{
     width: 30%;
-    background-image:url('img/img-1.jfif');
+    /* background-image:url('img/img-1.jfif'); */
     background-position: center center;
     background-size: cover;
     height: 250px;
 }
 .f2-img{
     width: 30%;
-    background-image:url('img/img-2.webp');
+    /* background-image:url('img/img-2.webp'); */
     background-position: center center;
     background-size: cover;
     height: 250px;
 }
 .f3-img{
     width: 30%;
-    background-image:url('img/img-3.webp');
+    /* background-image:url('img/img-3.webp'); */
     background-position: center center;
     background-size: cover;
     height: 250px;
