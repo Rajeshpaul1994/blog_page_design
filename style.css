@@ -82,3 +82,15 @@ Card grid sec
 .card{
     --bs-card-border-color: transparent;
 }
+
+
+/*
+Single blog
+*/
+.feature-img{
+    height: 400px;
+    background-image: url(img/img-1.jfif);
+    background-position: center center;
+    background-size: cover;
+}
+ul { list-style-type: none; }
